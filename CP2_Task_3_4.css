@@ -1,0 +1,85 @@
+body {
+    background-color:rgb(81, 137, 234) ;
+    /*border-style: groove;
+    /*color: darkolivegreen;*/
+    margin:15px;
+}
+h1 
+{
+    /*
+    text-shadow: 2px 2px;
+    border-style: inherit;
+    text-shadow: 2px 2px;
+    */
+    color:white;
+    margin:auto;  
+}
+.submit
+{
+  background-color: red;
+  color: red;
+  width: 100%;
+}
+
+form
+{
+text-align:center ;
+
+}
+input
+{
+  text-align: center;
+  padding: 2%;
+}
+.button
+{
+  background-color: red;
+  color:white;
+  padding: 2%;
+  text-align: center;
+
+}
+
+p
+{
+  color: white;
+  margin:auto;  
+}
+
+img {
+  display: ruby-base-container;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+label {color: rgb(19, 91, 126);}
+/*p {
+  background-color: rgb(80, 58, 10); 
+  color: blueviolet;
+  padding:2px;
+  margin: 10%; 
+  border-style: dotted;
+  text-shadow: 2px 2px;
+
+}*/
+/*comments in css*/
+
+
+div.polaroid {
+  width: 80%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+img {width: 100%}
+
+div.container {
+  text-align: center;
+  padding: 10px 20px;
+  color: black;
+}
+
+p{
+  color: black;
+}
