@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <title>F219222_Alishba_Nazir</title>
+
+</head>
+<body>
+    
+    <div class="alert alert-success alert-dismissible fade show">
+        <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+        <strong>Success!</strong> This alert box could indicate a successful or positive action.
+      </div>
+
+      <div class="alert alert-success alert-dismissible fade show">
+        <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+        <strong>Success!</strong> You should <a href="#" class="alert-link">read this message</a>.
+      </div>
+      <div class="alert alert-danger alert-dismissible fade show">
+        <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+        <strong>Danger!</strong> You should <a href="#" class="alert-link">resolve this error first</a>.
+      </div>
+      <div class="alert alert-info alert-dismissible fade show">
+        <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+        <strong>Info!</strong> Hy, my name is Alishba Nazir.</a>.
+      </div>
+      <div class="alert alert-warning alert-dismissible fade show">
+        <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+        <strong>Warning!</strong> You should check out the <a href="#" class="alert-link">Warning</a>.
+      </div>
+      <div class="alert alert-dark alert-dismissible fade show">
+        <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+        <strong>Dark!</strong> Hello! it's dark mode.</a>.
+      </div>
+
+
+      <button type="button" class="btn btn-warning">Warning</button>
+      <button type="button" class="btn btn-info">Information</button>
+      <button type="button" class="btn btn-danger">Danger</button>
+      <button type="button" class="btn btn-dark">Dark</button>
+      <button type="button" class="btn btn-link">Link</button>
+      <a href="https://www.google.com/" class="btn btn-success">Click Me</a>
+
+# task 3
+<form id="calculatorForm">
+    <label for="num1">Enter first number:</label><br>
+    <input type="number" id="num1" name="num1"><br>
+    <label for="num2">Enter second number:</label><br>
+    <input type="number" id="num2" name="num2"><br>
+    <br>
+    <button type="button" onclick="calculator()">Calculate</button>
+</form> 
+<div id="results"></div>
+
+
+    <script>
+        function calculator()
+        {
+            var number1 = parseFloat(document.getElementById("num1").value);
+            var number2 = parseFloat(document.getElementById("num2").value);
+            var resultsDiv = document.getElementById("results");
+            var resultText = "";
+
+            resultText += "Addition: " + (number1 + number2) + "<br>";
+            resultText += "Subtraction: " + (number1 - number2) + "<br>";
+            resultText += "Multiplication: " + (number1 * number2) + "<br>";
+
+            if (number2 !== 0) 
+            {
+                resultText += "Division: " + (number1 / number2) + "<br>";
+            } else {
+                resultText += "Division: Can not divide by zero<br>";
+            }
+
+            resultsDiv.innerHTML = resultText;
+        }
+        
+    </script>
+
+    <button onclick="myfunc()">try me</button>
+
+#task 4
+<input type="number" placeholder="Enter Number">
+<input type="button" value="Print Table" onclick="printtable()">
+<p id="result"></p>
+    <script>    
+        function printtable()
+        {
+            var number = parseInt(document.getElementById('number').value);
+            var result = "";
+            for(var a=1; a<=10;a++)
+            {
+                result += number + "x" + a + " = " + num * a + "<br>";
+            }
+    document.getElementById('result').innerHTML = "Table:-<br>" + result;
+}
+</script>
+
+</body>
+</html>
