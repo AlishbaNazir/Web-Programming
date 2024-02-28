@@ -2,6 +2,8 @@ body {
     margin: 0;
     font-family: Arial, sans-serif;
     background-color: rgb(24, 24, 24);
+    min-height: 100vh; 
+    position: relative;
 }
 
 .container {
@@ -46,6 +48,7 @@ nav ul li a:hover {
     background-color: #0ceb7c;
 
 }
+
 
 .hero {
     background-image: url('fiverr.jpeg');
@@ -140,4 +143,25 @@ nav ul li a:hover {
     .btn {
         padding: 8px 16px;
     }
+}
+
+
+
+.card img
+{
+    width: 170px;
+    height: 200px;
+
+}
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    position: absolute;
+    bottom: 0; 
+    width: 100%; 
 }

@@ -27,8 +27,6 @@ document.addEventListener('DOMContentLoaded', function() {
             document.getElementById('passwordError').textContent = 'Password cannot be empty';
             return;
         }
-
-        // Perform sign in logic here
         console.log('Signing in...');
     });
 
