@@ -7,14 +7,24 @@ document.addEventListener('DOMContentLoaded', function() {
         const username = document.getElementById('username').value;
         const password = document.getElementById('password').value;
 
+        document.getElementById('usernameError').textContent = '';
+        document.getElementById('passwordError').textContent = '';
+
+
         // Basic validation for username and password
         if (username.trim() === '') {
-            alert('Username cannot be empty');
+           // alert('Username cannot be empty');
+            //emailError.textContent = '*Username Cannot be empty';
+            //return;
+            document.getElementById('usernameError').textContent = 'Username cannot be empty';
             return;
-        }
+        } 
 
         if (password.trim() === '') {
-            alert('Password cannot be empty');
+            //alert('Password cannot be empty');
+           // emailError.textContent = 'Password cannot be empty';
+           // return;
+            document.getElementById('passwordError').textContent = 'Password cannot be empty';
             return;
         }
 
@@ -31,6 +41,7 @@ document.addEventListener('DOMContentLoaded', function() {
         // Basic validation for full name, email, and password
         if (fullName.trim() === '') {
             alert('Full Name cannot be empty');
+
             return;
         }
 
@@ -46,12 +57,11 @@ document.addEventListener('DOMContentLoaded', function() {
 
         if (newPassword.trim() === '') {
             alert('Password cannot be empty');
+
             return;
         }
 
-        // Additional validation logic can be added for other fields
-
-        // Perform sign up logic here
+       
         console.log('Signing up...');
     });
 
