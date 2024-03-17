@@ -1,0 +1,351 @@
+
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.sidebar{
+    width: 415px;
+    height:100vh;
+    font-family: "PT Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-weight: bold;
+}
+.sidebar nav{
+    padding: 40px;
+    padding-left:15px;
+}
+.sidebar nav li{
+    padding: 33px 0;
+    list-style: none;
+    font-size: 15px;
+    margin:35px auto;
+    padding-left:20px;
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color:rgb(219, 148, 252);
+    font-size:30px;
+    animation: slideRight .5s ease backwards;
+    animation-delay: calc(.2s * var(--i));
+}
+.sidebar nav li a:hover{
+    color:rgb(180, 219, 219);
+}
+.main{
+    width: 90vw;
+}
+.container{
+    color: white;
+    display:flex;
+}
+.infoContainer{
+    margin:115px auto;
+    height:54vh;
+    width:80vw;
+    display:flex;
+    justify-content: space-around;
+}
+.devInfo{
+    display: flex;
+    flex-direction: column;
+    font-family: "League Spartan", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+.hello{
+    font-size: 35px;
+    animation: slideLeft .5s ease backwards;
+    animation-delay: calc(.2s * var(--i));
+}
+.name{
+   font-size: 55px;
+   font-weight: bold;
+   color:pink;
+   animation: slideBottom .5s ease backwards;
+    animation-delay: calc(.2s * var(--i));
+}
+.about{
+    font-size: 35px;
+    animation: slideTop .5s ease backwards;
+    animation-delay: calc(.2s * var(--i));
+}
+.buttons{
+    margin-top: 8px;
+}
+.buttons button{
+    padding:8px;
+    border-radius:25px;
+    color:rgb(20, 20, 16);
+    background-color: rgb(181, 239, 241);
+    font-weight: bold;
+    margin:0 5px;
+    cursor: pointer;
+}
+.buttons button:hover{
+    background-color:rgb(250, 208, 188);
+    color: rgb(85, 39, 97);
+}
+.introHeading{
+    color: rgb(181, 244, 247);
+    padding-left: 20px;
+    font-size:20px;
+    margin-top:100px;
+    flex-direction: column; 
+    justify-content:center;
+    display: flex;
+    justify-content: space-around;
+    animation: About .5s ease backwards;
+    animation-delay: calc(.2s * var(--i));
+}
+.intro{
+    padding-left: 10px;
+    padding-right: 50px;
+    font-size:20px;
+    margin:10px 5px;
+    margin-bottom: 10px;
+    flex-direction: column;
+    justify-content:center; 
+    display: flex;
+    margin-block-end: 30px;
+}
+.skills-list{
+    margin:144px auto;
+    text-decoration: none;
+    padding-left: 50px;
+    font-size:18px;
+    margin:0 5px;
+    flex-direction: column; 
+    justify-content:center;
+    display: flex;
+    justify-content: space-around;
+    animation: skills .5s ease backwards;
+    animation-delay: calc(.2s * var(--i));
+}
+.skills-list ul {
+    list-style-type: none;
+}
+
+.skills-list h1{
+    color:rgb(168, 248, 244);
+    display:flex;
+    justify-content: center;
+    margin:0 5px;
+    margin-top: 20px;
+
+}
+.projects-list{
+    padding-top: 30px;
+    margin-top:100px;
+    margin:144px auto;
+    text-decoration: none;
+    padding-left: 20px;
+    font-size:15px;
+    margin:5px;
+    flex-direction: column;
+    justify-content:center;
+    display: flex;
+    justify-content: space-around;
+    animation: projects .5s ease backwards;
+    animation-delay: calc(.2s * var(--i));
+}
+.projects-list h1{
+    color:rgb(248, 191, 243);
+    display:flex;
+    justify-content: center;
+    margin:0 5px;
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-right: 55px;
+}
+.project1 p a{
+    text-decoration: none;
+    display:flex;
+    justify-content: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 55px;
+}
+.project2 p a{
+    text-decoration: none;
+    display:flex;
+    justify-content: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 55px;
+}
+.project3 p a{
+    text-decoration: none;
+    display:flex;
+    justify-content: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 55px;
+}
+.project4 p a{
+    text-decoration: none;
+    display:flex;
+    justify-content: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 55px;
+}
+.project5 p a{
+    text-decoration: none;
+    display:flex;
+    justify-content: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 55px;
+}
+.quote{
+    font-size: 25px;
+    font-weight: bold;
+    color:rgb(172, 241, 253);
+    margin-top: 10px;
+    margin-block-end: 30px;
+    animation: quoteslide .5s ease backwards;
+    animation-delay: calc(.2s * var(--i));
+}
+.Interests h2{
+    color:rgb(248, 214, 183);
+    display:flex;
+    justify-content: center;
+    margin:0 5px;
+    margin-top: 30px;
+    padding-top: 90px;
+    padding-right: 20px;
+    animation: interests .5s ease backwards;
+    animation-delay: calc(.2s * var(--i));   
+}
+.hobby1{
+    padding-top: 30px;
+    margin-top:100px;
+    margin:144px auto;
+    text-decoration: none;
+    padding-right: 50px;
+    font-size:20px;
+    margin:5px;
+    flex-direction: column;
+    justify-content:center;
+    display: flex;
+    justify-content: space-around;
+    animation: hobbies .5s ease backwards;
+    animation-delay: calc(.2s * var(--i));   
+}
+.hobby2{
+    margin-top:15px;
+}
+.hobby3{
+    margin-top:15px;
+}
+@keyframes slideRight{
+    0% {
+        transform: translateY(200px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+@keyframes slideBottom{
+    0% {
+        transform: translateY(-200px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+@keyframes slideTop{
+    0% {
+        transform: translateY(100px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+@keyframes slideLeft{
+    0% {
+        transform: translateY(100px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+@keyframes About{
+    0% {
+        transform: translateY(100px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+@keyframes quoteslide{
+    0% {
+        transform: translateY(200px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+@keyframes projects{
+    0% {
+        transform: translateY(-100px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+@keyframes skills{
+    0% {
+        transform: translateY(-100px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+@keyframes interests{
+    0% {
+        transform: translateY(-100px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+@keyframes hobbies{
+    0% {
+        transform: translateY(-100px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+  
+
+  
